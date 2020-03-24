@@ -4,21 +4,44 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    
+
     <title>Bootstrap LOYO 1</title>
-    
-    
+
+
     <style>
-      
+      .bgcolor1{
+        background-color: yellow;
+      }
     </style>
   </head>
   <body>
-    
-    
-    
+    <!--shadows-->
+    <div class="shadow-none p-3 mb-5 bg-light rounded  ">No shadow</div>
+    <div class="shadow-sm p-3 mb-5 bg-white rounded border-top rounded-top">Small shadow</div>
+    <div class="shadow p-3 mb-5 bg-white rounded">Regular shadow</div>
+    <div class="shadow-lg p-3 mb-5 bg-white rounded">Larger shadow</div>
+    <div class="shadow-lg mb-4">hi</div>
+    <!--Border-->
+    <div class="bgcolor1 .container-fluid border border-primary rounded-pill border-top-0 shadow-sm mb-5">
+      hello
+    </div>
+    <!--Color-->
+    <div class="shadow-lg bgcolor1" >
+      <a href="#" class="text-primary">primary!</a>
+      <div class="container-sm bg-dark text-light shadow-lg rounded">This contrast though</div>
+    </div>
+    <!--Make something-->
+    <div class="container-xs bg-light border border-light border-bottom-0 shadow-lg p-3">
+      <div class="container-fluid bg-dark shadow-lg mb-5 sm-3">
+        <h1 class="text-light">woah</h1>
+        <h1 class="text-primary bg-light">yikes</h1>
+      </div>
+    </div>
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
